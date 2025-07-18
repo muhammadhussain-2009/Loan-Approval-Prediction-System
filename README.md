@@ -154,21 +154,15 @@ Build Loan-Approval-Prediction-System from the source and install dependencies:
 
 3. **Install the dependencies:**
 
-echo 'INSERT-INSTALL-COMMAND-HERE'
+   ---sh
+   >pip install -r requirements.txt
 
 ### Usage
 
 Run the project with:
 
-echo 'INSERT-RUN-COMMAND-HERE'
-
-### Testing
-
-Loan-approval-prediction-system uses the {__test_framework__} test framework. Run the test suite with:
-
-echo 'INSERT-TEST-COMMAND-HERE'
-
----
+---sh
+>uvicorn app:app --reload
 
 ## Roadmap
 
