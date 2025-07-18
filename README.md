@@ -65,7 +65,7 @@ This project simplifies building reliable loan approval models. The core feature
 | 📄 | **Documentation** | <ul><li>Basic README with project overview</li><li>Inline comments within code/notebooks</li></ul> |
 | 🔌 | **Integrations**  | <ul><li>Uses Python libraries such as `scikit-learn`, `pandas`, `numpy` for ML and data processing</li><li>Potential integration with Jupyter notebooks for visualization</li></ul> |
 | 🧩 | **Modularity**    | <ul><li>Code split into multiple scripts/notebooks for data processing, modeling, evaluation</li><li>Functions and classes encapsulate key functionalities</li></ul> |
-| 🧪 | **Testing**       | <ul><li>Limited explicit testing; possible use of notebooks for validation</li><li>No mention of automated test suites or frameworks</li></ul> |
+| 🧪 | **Testing**       | <ul><li>Configure Uvicorn and run command to serve your API endpoint</li><li>Use Postman's built in testing features and send POST Requests and input data ti your API Endpoint and check results.</li></ul> |
 | ⚡️  | **Performance**   | <ul><li>Uses efficient data handling with pandas/numpy</li><li>Model training likely optimized for small to medium datasets</li></ul> |
 | 🛡️ | **Security**      | <ul><li>No explicit security features or measures observed</li><li>Potential vulnerabilities in data handling or deployment not addressed</li></ul> |
 | 📦 | **Dependencies**  | <ul><li>Key dependencies include `markdown`, `python`, `jupyternotebook`, `license`</li><li>Minimal external dependencies, primarily data science libraries</li></ul> |
