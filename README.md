@@ -77,13 +77,14 @@ This project simplifies building reliable loan approval models. The core feature
 
 ```sh
 └── Loan-Approval-Prediction-System/
-    ├── LICENSE
-    ├── Loan_Approval_Predictor.ipynb
-    ├── README.md
-    ├── app.py
-    ├── loan_data.csv
-    ├── loan_status_predictor.pkl
-    └── vector.pkl
+    ├── LICENSE 
+    ├── README.md #Documentation and Instruction For Project
+    ├── Loan_Apporval_Predictor.ipynb #Jupyter Notebook with code to build ML Model
+    └── requirements.txt #Dependencies for FrontEnd of Project 
+    ├── app.py #FASTAPI Client 
+    ├── loan_data.csv #Dataset For The Project
+    ├── loan_status_predictor.pkl #Saved Model Checkpoints
+    └── vector.pkl #Saved Scaled Data 
 ```
 
 ---
@@ -134,7 +135,7 @@ This project simplifies building reliable loan approval models. The core feature
 
 This project requires the following dependencies:
 
-- **Programming Language:** JupyterNotebook
+- **Programming Language:** Python, VSCode, FASTAPI, Postman, Uvicorn, Numpy, Pandas, Scikit-Learn, Matplotlib, Seaborn, JupyterNotebook
 
 ### Installation
 
@@ -154,21 +155,25 @@ Build Loan-Approval-Prediction-System from the source and install dependencies:
 
 3. **Install the dependencies:**
 
-   ---sh
-   >pip install -r requirements.txt
+   ```sh
+    ❯ pip intall -r requirements.txt
+    ```
 
 ### Usage
 
-Run the project with:
-
----sh
->uvicorn app:app --reload
+Run the project with: This provides an Asynchronous Server Getaway Interface and access to Local host to make requests to a functional API client 
+ ```sh
+    ❯ uvicorn app:app --reload 
+    ```
 
 ## Roadmap
 
-- [X] **`Task 1`**: <strike>Implement feature one.</strike>
-- [ ] **`Task 2`**: Implement feature two.
-- [ ] **`Task 3`**: Implement feature three.
+- [ ] **`Task 1`**: Load Dataset with Pandas, Data Cleaning, Inpection, Exploratory Data Analysis and Data Visualisation 
+- [ ] **`Task 2`**: Feature Engineering, Build Model, Test and Evaluate Various ML Algorithms, do some hyper paramter tuning 
+- [ ] **`Task 3`**: Save Model Checkpoints and scaled data via Joblib.
+- [ ] **`Task 4`**: Build FASTAPI Client. Define simple API end point to make POST requests and to recieve input data 
+- [ ] **`Task 5`**: Use Uvicorn command for ASGI and to get local host link
+- [ ] **`Task 6`**: Create new project with POSTMAN (from website): Configure the client and send requests to API endpoint with sample input data. Check reliability of results
 
 ---
 
