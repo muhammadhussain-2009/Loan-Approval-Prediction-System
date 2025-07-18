@@ -134,7 +134,7 @@ This project simplifies building reliable loan approval models. The core feature
 
 This project requires the following dependencies:
 
-- **Programming Language:** Python, VSCode, FASTAPI, Postman, Uvicorn, Numpy, Pandas, Scikit-Learn, Matplotlib, Seaborn, JupyterNotebook
+- **Programming Language:** Python, VSCode, JupyterNotebook
 
 ### Installation
 
@@ -165,8 +165,7 @@ Run the project with following command. This provides an Asynchronous Server Get
 uvicorn app:app --reload
  
 ## Roadmap
-
-- [ ] **`Task 1`**: Load Dataset with Pandas, Data Cleaning, Inpection, Exploratory Data Analysis and Data Visualisation 
+- [X] **`Task 1`**: <strike>Load Dataset with Pandas, Data Cleaning, Inpection, Exploratory Data Analysis and Data Visualisation(Within Jupyter Notebook)</strike>
 - [ ] **`Task 2`**: Feature Engineering, Build Model, Test and Evaluate Various ML Algorithms, do some hyper paramter tuning 
 - [ ] **`Task 3`**: Save Model Checkpoints and scaled data via Joblib.
 - [ ] **`Task 4`**: Build FASTAPI Client. Define simple API end point to make POST requests and to recieve input data 
